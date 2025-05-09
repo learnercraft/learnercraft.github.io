@@ -1,7 +1,7 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import react from "@astrojs/react";
 import starlight from "@astrojs/starlight";
-import react from "@vitejs/plugin-react-swc";
+import { defineConfig } from "astro/config";
 
 import tailwindcss from "@tailwindcss/vite";
 import starlightBlog from "starlight-blog";
@@ -29,9 +29,10 @@ export default defineConfig({
             customCss: ["./src/styles/global.css", "./src/styles/fonts.css"],
             plugins: [starlightBlog()],
         }),
+        react(),
     ],
 
     vite: {
-        plugins: [react(), tailwindcss()],
+        plugins: [tailwindcss()],
     },
 });
