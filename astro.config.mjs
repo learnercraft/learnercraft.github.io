@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import react from "@vitejs/plugin-react-swc";
 
 import tailwindcss from "@tailwindcss/vite";
 import starlightBlog from "starlight-blog";
@@ -9,8 +10,9 @@ import starlightBlog from "starlight-blog";
 export default defineConfig({
     integrations: [
         starlight({
-            title: "My Docs",
-            social: [{ icon: "github", label: "GitHub", href: "https://github.com/withastro/starlight" }],
+            title: "Yllst Testing Labs",
+            favicon: "/images/favicon.png",
+            social: [{ icon: "github", label: "GitHub", href: "https://github.com/yllst-testing-labs" }],
             sidebar: [
                 {
                     label: "Guides",
@@ -30,6 +32,6 @@ export default defineConfig({
     ],
 
     vite: {
-        plugins: [tailwindcss()],
+        plugins: [react(), tailwindcss()],
     },
 });
