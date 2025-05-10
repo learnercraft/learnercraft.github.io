@@ -11,7 +11,9 @@ We focus on developing user-friendly, interactive applications that help learner
 
 ## Our projects
 
-Our first project, [iSpeakerReact ↗](https://github.com/yllst-testing-labs/ispeakerreact), is an English-learning tool built with React. It helps users improve their speaking and listening skills through interactive practice.
+Our first project, [iSpeakerReact](/projects/ispeakerreact), is an English-learning tool built with React. It helps users improve their speaking and listening skills through interactive practice.
+
+Our second project, [DocuGrammar](/projects/docugrammar), is an extensive collection of grammar references designed to help learners understand and master the intricacies of language. Powered by Docusaurus, it offers a user-friendly and visually appealing platform for accessing a wealth of grammar resources.
 
 ## Our mission
 
