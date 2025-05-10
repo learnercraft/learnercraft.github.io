@@ -8,6 +8,7 @@ import starlightBlog from "starlight-blog";
 
 // https://astro.build/config
 export default defineConfig({
+    site: "https://yllst-testing-labs.github.io",
     integrations: [
         starlight({
             title: "Yllst Testing Labs",
