@@ -14,11 +14,27 @@ export default defineConfig({
             title: "Yllst Testing Labs",
             favicon: "/images/favicon.png",
             social: [{ icon: "github", label: "GitHub", href: "https://github.com/yllst-testing-labs" }],
+            defaultLocale: "root",
+            locales: {
+                // English docs in `src/content/docs/en/`
+                root: {
+                    label: "English",
+                    lang: "en",
+                },
+                // Vietnamese docs in `src/content/docs/vi/`
+                vi: {
+                    label: "Tiếng Việt",
+                    lang: "vi",
+                },
+            },
             sidebar: [
                 { slug: "about" },
                 {
                     label: "Projects",
                     autogenerate: { directory: "projects" },
+                    translations: {
+                        "vi": "Các dự án",
+                    },
                 },
             ],
             customCss: ["./src/styles/global.css", "./src/styles/fonts.css"],
