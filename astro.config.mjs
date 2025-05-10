@@ -21,7 +21,18 @@ export default defineConfig({
                 },
             ],
             customCss: ["./src/styles/global.css", "./src/styles/fonts.css"],
-            plugins: [starlightBlog()],
+            plugins: [
+                starlightBlog({
+                    authors: {
+                        yell0wsuit: {
+                            name: "yell0wsuit",
+                            title: "Admin",
+                            picture: "/images/avatar/yell0wsuit.png",
+                            url: "https://yell0wsuit.page",
+                        },
+                    },
+                }),
+            ],
         }),
         react(),
     ],
