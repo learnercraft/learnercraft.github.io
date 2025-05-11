@@ -13,9 +13,9 @@ It originated from the version included on the CD-ROM of the *Oxford Advanced Le
 
 ![Oxford iSpeaker screenshot](/images/blog/2025-05-10-ispeakerreact-development-history-image-01.webp)
 
-Developed by Oxford University Press, the tool came packed with features that closely resemble those in today’s iSpeakerReact. It was built using [AngularJS ↗](https://angularjs.org/) and [jQuery ↗](https://jquery.com/).
+Developed by Oxford University Press, the tool came packed with features that were transfered to today’s iSpeakerReact. It was built using [AngularJS ↗](https://angularjs.org/) and [jQuery ↗](https://jquery.com/).
 
-However, due to its reliance on Node.js, it couldn't run in standard web browsers. So we modified its code to make it browser-compatible. Unfortunately, there were some compromises that we had to make. For example, the recording feature had to be removed, as it wasn’t feasible in browsers at the time. The app was also quite buggy and not user-friendly—especially on mobile devices.
+However, due to its reliance on Node.js, it couldn't run in standard web browsers. So we modified its code to make it browser-compatible. Unfortunately, there were some compromises that we had to make. For example, the recording feature had to be removed, as we didn't know how to implement it at that time. The app was also quite buggy and not user-friendly, especially on mobile devices.
 
 <!-- excerpt -->
 
@@ -25,7 +25,7 @@ In 2023, we gave the interface its first major redesign ([pull request ↗](http
 
 ![Screenshot of the first revamp](/images/blog/2025-05-10-ispeakerreact-development-history-image-02.webp)
 
-Thanks to Bootstrap 5, the app became more visually appealing and responsive, and we introduced dark theme support for the first time.
+Thanks to Bootstrap 5, the app became more visually appealing and responsive on mobile, and we introduced dark theme support for the first time.
 
 Despite the visual improvements, the core of the app still relied on AngularJS, which had been deprecated in 2022. It became clear that a complete rebuild was necessary.
 
@@ -55,7 +55,7 @@ To reflect the changes, we renamed the app to *iSpeakerReact*, representing both
 
 ## Electron support
 
-To make the app work offline, we added [Electron](https://www.electronjs.org/) support ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/13)).
+To make the app work offline like normal desktop apps, we added [Electron](https://www.electronjs.org/) support ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/13)).
 
 The original version, *iSpeaker: Pronunciation Tool*, was once available on the Microsoft Store. It was based on the first revamp and bundled with audio/video files. However, the file size—around 3GB—made it difficult to distribute and update.
 
@@ -63,7 +63,7 @@ With Electron support, we removed the bundled video files and added a feature to
 
 We also implemented logging in the Electron version to help users report bugs more easily.
 
-To automate releases, we wrote a script that builds and publishes the app to GitHub Releases. Getting this working was tough—we waited ~15 minutes each time just to see an error. After much trial and error (and help from both ChatGPT and Claude), we got it working. Manual builds were an option, but they weren’t as secure or verifiable.
+To automate releases, we wrote a script that builds and publishes the app to GitHub Releases. Getting this working was tough—we waited ~15 minutes each time just to see an error 😫. After much trial and error (and help from both ChatGPT and Claude), we got it working. Manual builds were an option, but they weren’t as secure or verifiable, which goes against [our missions](/about/#our-mission).
 
 ## Localization support
 
@@ -71,7 +71,7 @@ Initially, all UI text was hardcoded in English. We later added localization sup
 
 The first supported language was Chinese, thanks to [@wekik](https://github.com/wekik).
 
-We started with Crowdin, but quickly hit its free-tier limit. After applying for the open-source plan, we continued for a while—until Crowdin abruptly suspended our project without notice. That was a huge setback. (Note to future projects: don't use Crowdin.)
+For translation management, we started with Crowdin, but quickly hit its free-tier limit. After applying for the open-source plan, we continued for a while—until Crowdin abruptly suspended our project without notice. That was a huge setback. (Note to future projects: don't use Crowdin.)
 
 We then switched to [Weblate ↗](https://weblate.org/), which turned out to be a perfect fit. It’s open-source, has generous limits, and integrates smoothly with GitHub. While the setup was initially complex, it was worth it in the long run.
 
@@ -99,7 +99,7 @@ The first major addition was the Word section ([pull request ↗](https://github
 
 ![Word section screenshot](/images/blog/2025-05-10-ispeakerreact-development-history-image-06.webp)
 
-A standout feature is real-time syllable highlighting, showing learners exactly where to place stress. There’s also a slow playback mode to help learners practice at a more comfortable pace.
+A standout feature is real-time syllable highlighting, showing learners exactly where and how to pronouce each syllable. There’s also a slow playback mode to help learners practice at a more comfortable pace.
 
 ## Future plans
 
