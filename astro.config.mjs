@@ -11,9 +11,9 @@ export default defineConfig({
     site: "https://yllst-testing-labs.github.io",
     integrations: [
         starlight({
-            title: "Yllst Testing Labs",
+            title: "LearnerCraft Labs",
             favicon: "/images/favicon.png",
-            social: [{ icon: "github", label: "GitHub", href: "https://github.com/yllst-testing-labs" }],
+            social: [{ icon: "github", label: "GitHub", href: "https://github.com/learnercraft" }],
             defaultLocale: "root",
             locales: {
                 // English docs in `src/content/docs/en/`
