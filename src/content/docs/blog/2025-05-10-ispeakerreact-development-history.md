@@ -21,7 +21,7 @@ However, due to its reliance on Node.js, it couldn't run in standard web browser
 
 ## The first revamp
 
-In 2023, we gave the interface its first major redesign ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/1)). We adopted Bootstrap 5 to modernize the UI.
+In 2023, we gave the interface its first major redesign ([pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/1)). We adopted Bootstrap 5 to modernize the UI.
 
 ![Screenshot of the first revamp](/images/blog/2025-05-10-ispeakerreact-development-history-image-02.webp)
 
@@ -55,7 +55,7 @@ To reflect the changes, we renamed the app to *iSpeakerReact*, representing both
 
 ## Electron support
 
-To make the app work offline like normal desktop apps, we added [Electron](https://www.electronjs.org/) support ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/13)).
+To make the app work offline like normal desktop apps, we added [Electron](https://www.electronjs.org/) support ([pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/13)).
 
 The original version, *iSpeaker: Pronunciation Tool*, was once available on the Microsoft Store. It was based on the first revamp and bundled with audio/video files. However, the file size—around 3GB—made it difficult to distribute and update.
 
@@ -67,7 +67,7 @@ To automate releases, we wrote a script that builds and publishes the app to Git
 
 ## Localization support
 
-Initially, all UI text was hardcoded in English. We later added localization support ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/15)), allowing the app to be translated into different languages.
+Initially, all UI text was hardcoded in English. We later added localization support ([pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/15)), allowing the app to be translated into different languages.
 
 The first supported language was Chinese, thanks to [@wekik](https://github.com/wekik).
 
@@ -95,7 +95,7 @@ This third revamp is the app’s current iteration.
 
 Over time, we began adding new features that weren’t present in the original app—or simply weren’t feasible before.
 
-The first major addition was the Word section ([pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/33)). It helps learners practice pronunciation of common words from the Oxford 3000™ and 5000™ lists. Each word is broken into syllables, with primary and secondary stress clearly highlighted.
+The first major addition was the Word section ([pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/33)). It helps learners practice pronunciation of common words from the Oxford 3000™ and 5000™ lists. Each word is broken into syllables, with primary and secondary stress clearly highlighted.
 
 ![Word section screenshot](/images/blog/2025-05-10-ispeakerreact-development-history-image-06.webp)
 
@@ -105,4 +105,4 @@ A standout feature is real-time syllable highlighting, showing learners exactly 
 
 We’re continuously improving the app—fixing bugs, adding features, and improving security as needed.
 
-If you have feedback or suggestions, feel free to [open an issue on GitHub ↗](https://github.com/yllst-testing-labs/ispeakerreact/issues).
+If you have feedback or suggestions, feel free to [open an issue on GitHub ↗](https://github.com/learnercraft/ispeakerreact/issues).

@@ -24,6 +24,6 @@ DocuGrammar is an extensive collection of grammar references designed to help le
 
 ## Links
 
-- [DocuGrammar ↗](https://yllst-testing-labs.github.io/docugrammar/)
-- [DocuGrammar GitHub repository ↗](https://github.com/yllst-testing-labs/docugrammar)
-- [Download DocuGrammar ↗](https://github.com/yllst-testing-labs/docugrammar/releases/latest)
+- [DocuGrammar ↗](https://learnercraft.github.io/docugrammar/)
+- [DocuGrammar GitHub repository ↗](https://github.com/learnercraft/docugrammar)
+- [Download DocuGrammar ↗](https://github.com/learnercraft/docugrammar/releases/latest)

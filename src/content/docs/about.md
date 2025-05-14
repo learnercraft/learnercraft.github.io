@@ -1,11 +1,11 @@
 ---
 title: About us
-description: Learn more about Yllst Testing Labs and our mission to build accessible educational tools.
+description: Learn more about LearnerCraft Labs and our mission to build accessible educational tools.
 ---
 
 ## Who we are
 
-**Yllst Testing Labs** is committed to building innovative educational tools that make learning more accessible, practical, and engaging for everyone.
+**LearnerCraft Labs** (formerly *Yllst Testing Labs*) is committed to building innovative educational tools that make learning more accessible, practical, and engaging for everyone.
 
 We focus on developing user-friendly, interactive applications that help learners reach their goals with clarity and confidence.
 

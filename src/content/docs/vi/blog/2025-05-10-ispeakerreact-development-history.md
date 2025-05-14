@@ -21,7 +21,7 @@ Tuy nhiên, vì phụ thuộc vào Node.js, ứng dụng này không thể chạ
 
 ## Đợt làm mới đầu tiên
 
-Năm 2023, chúng tôi tiến hành làm mới giao diện lần đầu tiên ([xem pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/1)). Chúng tôi sử dụng Bootstrap 5 để hiện đại hóa giao diện.
+Năm 2023, chúng tôi tiến hành làm mới giao diện lần đầu tiên ([xem pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/1)). Chúng tôi sử dụng Bootstrap 5 để hiện đại hóa giao diện.
 
 ![Ảnh chụp lần làm mới đầu tiên](/images/blog/2025-05-10-ispeakerreact-development-history-image-02.webp)
 
@@ -55,7 +55,7 @@ Ngày 6 tháng 9 năm 2024, phiên bản mới được chính thức hoàn thi�
 
 ## Hỗ trợ Electron
 
-Để ứng dụng có thể chạy ngoại tuyến như ứng dụng trên máy tính, chúng tôi tích hợp hỗ trợ [Electron ↗](https://www.electronjs.org/) ([xem pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/13)).
+Để ứng dụng có thể chạy ngoại tuyến như ứng dụng trên máy tính, chúng tôi tích hợp hỗ trợ [Electron ↗](https://www.electronjs.org/) ([xem pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/13)).
 
 Phiên bản ban đầu, *iSpeaker: Pronunciation Tool*, từng có mặt trên Microsoft Store. Nó dựa trên bản làm mới đầu tiên và được đóng gói kèm file âm thanh và video. Tuy nhiên, kích thước file khoảng 3GB khiến việc phân phối và cập nhật trở nên khó khăn.
 
@@ -67,7 +67,7 @@ Chúng tôi cũng thêm tính năng ghi log trong phiên bản Electron, giúp n
 
 ## Hỗ trợ đa ngôn ngữ
 
-Ban đầu, khi làm ứng dụng, giao diện chỉ viết bằng tiếng Anh. Chúng tôi sau đó đã sửa lại code để thêm hỗ trợ đa ngôn ngữ ([xem pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/15)).
+Ban đầu, khi làm ứng dụng, giao diện chỉ viết bằng tiếng Anh. Chúng tôi sau đó đã sửa lại code để thêm hỗ trợ đa ngôn ngữ ([xem pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/15)).
 
 Ngôn ngữ được hỗ trợ đầu tiên là tiếng Trung, nhờ sự đóng góp của [@wekik](https://github.com/wekik).
 
@@ -101,7 +101,7 @@ Trước khi có daisyUI, việc dùng Tailwind đơn lẻ khá cực – khó g
 
 Qua thời gian, chúng tôi bắt đầu thêm các tính năng mới mà phiên bản gốc không có – hoặc không thể khả thi để thêm vào bản gốc.
 
-Tính năng lớn đầu tiên là phần *Từ vựng* ([xem pull request ↗](https://github.com/yllst-testing-labs/ispeakerreact/pull/33)). Phần này giúp người học luyện phát âm các từ thông dụng trong danh sách Oxford 3000™ và 5000™. Mỗi từ được chia thành các âm tiết, với trọng âm chính và phụ được đánh dấu rõ ràng.
+Tính năng lớn đầu tiên là phần *Từ vựng* ([xem pull request ↗](https://github.com/learnercraft/ispeakerreact/pull/33)). Phần này giúp người học luyện phát âm các từ thông dụng trong danh sách Oxford 3000™ và 5000™. Mỗi từ được chia thành các âm tiết, với trọng âm chính và phụ được đánh dấu rõ ràng.
 
 ![Ảnh chụp phần từ vựng](/images/blog/2025-05-10-ispeakerreact-development-history-image-06.webp)
 
@@ -111,4 +111,4 @@ Tính năng lớn đầu tiên là phần *Từ vựng* ([xem pull request ↗](
 
 Chúng tôi vẫn đang liên tục cải thiện ứng dụng – sửa lỗi, thêm tính năng, và nâng cao bảo mật.
 
-Nếu bạn có góp ý hay đề xuất, đừng ngần ngại [mở issue trên GitHub ↗](https://github.com/yllst-testing-labs/ispeakerreact/issues).
+Nếu bạn có góp ý hay đề xuất, đừng ngần ngại [mở issue trên GitHub ↗](https://github.com/learnercraft/ispeakerreact/issues).

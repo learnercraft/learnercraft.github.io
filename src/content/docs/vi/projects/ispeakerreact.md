@@ -54,6 +54,6 @@ iSpeakerReact là một công cụ học tiếng Anh được phát triển bằ
 
 ## Liên kết
 
-- [Trang web iSpeakerReact ↗](https://yllst-testing-labs.github.io/ispeakerreact/)
-- [GitHub iSpeakerReact ↗](https://github.com/yllst-testing-labs/ispeakerreact)
-- [Tải iSpeakerReact ↗](https://yllst-testing-labs.github.io/ispeakerreact/download)
+- [Trang web iSpeakerReact ↗](https://learnercraft.github.io/ispeakerreact/)
+- [GitHub iSpeakerReact ↗](https://github.com/learnercraft/ispeakerreact)
+- [Tải iSpeakerReact ↗](https://learnercraft.github.io/ispeakerreact/download)

@@ -34,6 +34,6 @@ DocuGrammar là một bộ sưu tập tài liệu ngữ pháp được tổng h�
 
 ## Liên kết
 
-- [Trang web DocuGrammar ↗](https://yllst-testing-labs.github.io/docugrammar/)
-- [Kho mã nguồn GitHub ↗](https://github.com/yllst-testing-labs/docugrammar)
-- [Tải bản DocuGrammar để sử dụng ngoại tuyến ↗](https://github.com/yllst-testing-labs/docugrammar/releases/latest)
+- [Trang web DocuGrammar ↗](https://learnercraft.github.io/docugrammar/)
+- [Kho mã nguồn GitHub ↗](https://github.com/learnercraft/docugrammar)
+- [Tải bản DocuGrammar để sử dụng ngoại tuyến ↗](https://github.com/learnercraft/docugrammar/releases/latest)

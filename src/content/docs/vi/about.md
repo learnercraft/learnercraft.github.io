@@ -1,11 +1,11 @@
 ---
 title: Giới thiệu về chúng tôi
-description: Tìm hiểu thêm về Yllst Testing Labs và sứ mệnh của chúng tôi trong việc xây dựng các công cụ học tập thân thiện với người dùng.
+description: Tìm hiểu thêm về LearnerCraft Labs và sứ mệnh của chúng tôi trong việc xây dựng các công cụ học tập thân thiện với người dùng.
 ---
 
 ## Chúng tôi là ai
 
-**Yllst Testing Labs** cam kết xây dựng các ứng dụng học tập sáng tạo, giúp việc học trở nên dễ tiếp cận hơn, thiết thực hơn và thú vị hơn cho mọi đối tượng người học.
+**LearnerCraft Labs** (trước đây là *Yllst Testing Labs*) cam kết xây dựng các ứng dụng học tập sáng tạo, giúp việc học trở nên dễ tiếp cận hơn, thiết thực hơn và thú vị hơn cho mọi đối tượng người học.
 
 Chúng tôi tập trung phát triển các ứng dụng thân thiện và có tính tương tác cao, hỗ trợ người học đạt được mục tiêu của mình một cách rõ ràng và tự tin.
 

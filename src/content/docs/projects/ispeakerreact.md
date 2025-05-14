@@ -45,6 +45,6 @@ listening skills through interactive practice.
 
 ## Links
 
-- [iSpeakerReact ↗](https://yllst-testing-labs.github.io/ispeakerreact/)
-- [iSpeakerReact GitHub repository ↗](https://github.com/yllst-testing-labs/ispeakerreact)
-- [Download iSpeakerReact ↗](https://yllst-testing-labs.github.io/ispeakerreact/download)
+- [iSpeakerReact ↗](https://learnercraft.github.io/ispeakerreact/)
+- [iSpeakerReact GitHub repository ↗](https://github.com/learnercraft/ispeakerreact)
+- [Download iSpeakerReact ↗](https://learnercraft.github.io/ispeakerreact/download)
