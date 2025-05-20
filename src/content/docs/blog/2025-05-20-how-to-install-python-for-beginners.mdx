@@ -1,0 +1,180 @@
+---
+title: How to install Python for beginners
+date: 2025-05-20
+authors:
+  - yell0wsuit
+---
+
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+:::note
+
+This guide is also available in the following languages:
+
+- [Tiếng Việt](/vi/blog/2025-05-20-how-to-install-python-for-beginners)
+
+:::
+
+Installing Python is easy. Follow the steps below to install it on your computer.
+
+<Tabs>
+  <TabItem label="Windows" icon="seti:windows">
+
+<Steps>
+
+1. **Download the Python installer**
+
+   Go to the [official Python download page](https://www.python.org/downloads/).  
+   Click the big yellow **“Download Python 3.x.x”** button (the `x.x` will be the latest version).
+
+   ![Python download page](/images/blog/2025-05-20-how-to-install-python-for-beginners-python-website-windows.webp)
+
+   Then, open the downloaded setup file.
+
+2. **Install Python to the default `C:\` drive**
+
+   :::tip
+
+   Skip this step if you want to install Python to a different drive.
+
+   :::
+
+   If your `C:\` drive has enough free space:
+
+   - ✅ Check “Add python.exe to PATH”  
+   - ✅ Check “Use admin privileges when installing py.exe”  
+   - Click **“Install Now”**
+
+   ![Python installation window](/images/blog/2025-05-20-how-to-install-python-for-beginners-pythoninstall_firsttime.webp)
+
+   :::note
+   If prompted by User Account Control:
+
+   ![Windows User Account Control](/images/blog/2025-05-20-how-to-install-python-for-beginners-windows_uac.webp)
+
+   Click **“Yes”** to continue.
+   :::
+
+3. **Install Python to a different drive**
+
+   :::tip
+
+   Skip this step if you have already completed step 2 above.
+
+   :::
+
+   If your `C:\` drive is low on space or you want to install Python elsewhere:
+
+   - Open **This PC** and find a drive with enough free space.  
+
+     ![This PC](/images/blog/2025-05-20-how-to-install-python-for-beginners-thispc_choosedrive.webp)
+
+   - In the Python installer, click **“Customize installation”**.  
+
+     ![Customize installation window](/images/blog/2025-05-20-how-to-install-python-for-beginners-pythoninstall_customsettings.webp)
+
+   - Select the checkboxes like in the image above and click **“Next”**.
+
+   - In the next screen:  
+
+     ![Advanced options](/images/blog/2025-05-20-how-to-install-python-for-beginners-pythoninstall_advancedoptions.webp)  
+
+     - Select the checkboxes like in the image above  
+     - Click **Browse** and choose a custom path (e.g., `E:\python3`). Or you can type the path directly.  
+       _We recommend creating/typing a new folder like `python3` to avoid issues._
+
+   - Click **“Install”**
+
+   :::note
+   If prompted by User Account Control:
+
+   ![Windows User Account Control](/images/blog/2025-05-20-how-to-install-python-for-beginners-windows_uac.webp)
+
+   Click **“Yes”** to continue.
+   :::
+
+4. **Finish the installation**
+
+   After installation completes:
+
+   ![Installation complete](/images/blog/2025-05-20-how-to-install-python-for-beginners-pythoninstall_setupcomplete.webp)
+
+   - (Optional) Click **“Disable path length limit”**
+   - Then click **“Close”**
+
+   🎉 Python is now successfully installed on your computer.
+
+</Steps>
+
+</TabItem>
+<TabItem label="macOS" icon="apple">
+
+<Steps>
+
+1. **Download the Python installer**
+
+   Go to the [official Python download page](https://www.python.org/downloads/).  
+   Click the big yellow **“Download Python 3.x.x”** button.
+
+   ![Python download page](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-31-01.webp)
+
+   If prompted by your browser, click **Allow** to confirm the download.
+
+   ![macOS confirmation](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-31-29.webp)
+
+2. **Open the installer**
+
+   Once downloaded, open the `.pkg` file to start the installation.
+
+   ![macOS installation](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-31-50.webp)
+
+3. **Run through the installation screens**
+
+   - Click **Continue** on all steps  
+
+     ![Python installation window](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-32-08.webp)  
+
+   - Click "Agree" to the license  
+
+     ![Python installation agree to terms](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-32-35.webp)
+
+   - Click **Install**  
+
+     ![Python installation 1](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-32-43.webp)
+
+   - Authenticate with your password or Touch ID, if prompted  
+
+     ![Python installation authenticate](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-32-54.webp)
+
+4. **Install certificates**
+
+   Once installation is complete, a Finder window will open.
+
+   Double-click **`Install Certificates.command`**
+
+   ![Finder window](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-33-27.webp)
+
+   :::tip
+
+   If you accidentally close the Finder window, or don’t know where the file is, you can find it by using the search button 🔍 in the top-right corner of the Finder window.
+
+   :::
+
+   Wait for Terminal to show `[Process completed]`, then close it.
+
+   ![Terminal installing certificates](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-35-34.webp)
+
+5. **Finish up**
+
+   - Click **Close** on the installer window
+   - Choose **Move to Trash** to delete the installer
+
+   ![Python installation finished](/images/blog/2025-05-20-how-to-install-python-for-beginners-macos-macOS14-2025-05-17-20-38-14.webp)
+
+   🎉 Python is now successfully installed on your Mac.
+
+</Steps>
+
+</TabItem>
+</Tabs>
